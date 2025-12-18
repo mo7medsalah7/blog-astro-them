@@ -5,7 +5,7 @@ export const getClient = () => {
   return new GraphQLClient("https://gql.hashnode.com");
 };
 
-const myHashnodeURL = "akoskm.hashnode.dev";
+const myHashnodeURL = "salahspeaks.com";
 
 const getPostsAtCursor = async (cursor = "") => {
   const client = getClient();
